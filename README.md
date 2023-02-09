@@ -5,6 +5,17 @@ Next, TypeScript, ESLint, Stylelint, Prettier, Husky, Lint-Staged, nvmrc 설정
 <br />
 <br />
 
+# 사용 방법
+
+```
+git clone https://github.com/metacode22/next-bolier-plate.git
+nvm use
+npm install
+```
+
+<br />
+<br />
+
 # 폴더 구조
 
 ```
@@ -23,6 +34,9 @@ Next, TypeScript, ESLint, Stylelint, Prettier, Husky, Lint-Staged, nvmrc 설정
 ┃ ┣ 📂helpers
 ┃ ┗ 📂validations
 ```
+
+<br />
+<br />
 
 # 코딩 컨벤션
 
