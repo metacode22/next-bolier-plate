@@ -4,10 +4,12 @@
       "version": "detect"
     }
   },
+  "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort"],
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier"
@@ -21,7 +23,6 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "simple-import-sort/imports": "error",
