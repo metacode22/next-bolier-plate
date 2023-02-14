@@ -10,7 +10,7 @@ module.exports = {
     ];
   },
 
-  '**/*.ts': (filenames) => {
+  '**/*.tsx': (filenames) => {
     return `npx stylelint --ignore-path .gitignore ${filenames.join(' ')}`;
   },
 };
