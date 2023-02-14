@@ -23,6 +23,6 @@
       "utils/*": ["./utils/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./.eslintrc.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./public/mockServiceWorker.js"],
   "exclude": ["node_modules"]
 }
