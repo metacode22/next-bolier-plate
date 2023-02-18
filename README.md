@@ -1,6 +1,6 @@
 # 보일러 플레이트
 
-Next, TypeScript, ESLint, Stylelint, Prettier, Husky, Lint-Staged, nvmrc 설정
+Next, TypeScript, ESLint, Stylelint, Commitlint, Prettier, Husky, Lint-Staged, nvmrc 설정
 
 <br />
 <br />
@@ -20,19 +20,21 @@ npm install
 
 ```
 📦src
-┣ 📂assets
-┣ 📂components
-┣ 📂hooks
-┣ 📂pages
-┃ ┣ 📂api
-┃ ┣ 📜_app.tsx
-┃ ┣ 📜_document.tsx
-┃ ┗ 📜index.tsx
-┗ 📂utils
-┃ ┣ 📂apis
-┃ ┣ 📂constants
-┃ ┣ 📂helpers
-┃ ┗ 📂validations
+ ┣ 📂assets
+ ┣ 📂components
+ ┃ ┣ 📂common
+ ┣ 📂hooks
+ ┣ 📂pages
+ ┃ ┣ 📜_app.tsx
+ ┃ ┣ 📜_document.tsx
+ ┃ ┗ 📜index.tsx
+ ┣ 📂recoil
+ ┣ 📂types
+ ┗ 📂utils
+ ┃ ┣ 📂apis
+ ┃ ┣ 📂constants
+ ┃ ┣ 📂helpers
+ ┃ ┗ 📂validations
 ```
 
 <br />
@@ -41,6 +43,7 @@ npm install
 # 코딩 컨벤션
 
 - eslint, prettier 적용
+- 커밋 메세지 일관성 위해 commitlint 적용
 - emotion styled에 stylelint 적용
 - husky, lint-staged를 통해 commit 시 eslint, stylelint, prettier 적용
 - nvmrc로 node 버전 통일
