@@ -28,6 +28,8 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@tanstack/eslint-plugin-query": "^4.24.7",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
